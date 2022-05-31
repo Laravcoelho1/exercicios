@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+<h1>Trabalhando com listas</h1>
+<h2>OL - Ordered lists (Listas Ordenadas)</h2>  
+<p>Listas ordenadas são listas em que a ordem dos itens importa, então mesmo que você coloque um intem depois na lista,<br>em cima de outros, a numeração vai continuar na ordem certa</p>
+<p><B>EXEMPLO</B></p>
+<ol type="1">
+    <li>Acordar</li>
+    <li>pintar as unhas</li>
+    <li>Escovar os dentes</li>
+    <li>Arrumar a casa</li>
+    <li>Lavar louça</li>
+    <li>Tomar café da manhã</li>
+    <li>Assistir a  aula</li>
+    <li>Fazer lições da faculdade</li>
+</ol>
+<p>O item "pintar as unhas" Foi adicionado depois, mas por se tratar de uma ordered list, os números em ordem foram corrigidos automaticamente. <br>O parâmetro "type" em frente a tag ol, permite escolher de que forma essa lista será ordenada</p>
+<ul type= "circle">
+    <li>1 - Ordem numérica</li>
+    <li>a - Ordem alfabética minúsculo</li>
+    <li>A - ordem alfabética maiusculos</li>
+    <li>i - Números romanos minúsculo</li>
+    <li>I - Números romanos maiusculos</li>
+</ul>
+<h2> UL - Unordered Lists (listas não ordenadas) </h2>
+<p>Agora vamos aprender a fazer uma lista não ordenada, igual a última lista acima. <br>A unordered list, é formada pela tag "ul" e assim como a ol, usamos a tag "li" para inserir os componentes desta lista. <br> <b>Observação:</b> A  tag "li" não é obrigatório seu fechamento na HTML5.</p>
+<ul type= "square">
+ <li>Manteiga</li>
+ <li>Abacaxi</li>
+ <li>Cenoura</li>
+ <li>Maçã</li>
+ <li>Cenoura</li>
+ <li>beterraba</li>
+</ul>
+<p>Também é possível personalizar o estilo do marcador com o parâmetro "type", sendo possível utilizar: Square, circle e disk. <br>Nessa lista, usamos o square.</p>.
+<h2>Listas mistas</h2>
+<p>Você também pode misturar listas como no exemplo abaixo:</p>
+<ol type="1"> 
+    <li>Jogos</li>
+    <ul type= "square">
+        <li>Mario</li>
+        <li>God of war</li>
+        <li>GTA</li>
+        <li>Spartan</li>
+    </ul>
+    <li>Filmes</li>
+    <ul type= "square"> 
+        <li>Homem Aranha</li>
+        <li>Mulan</li>
+        <li>Um olhar no paraiso</li>
+    </ul>
+    <li>Séries</li>
+    <ul type= "Square">
+        <li>The vampire diaries</li>
+        <li>Jane the virgin</li>
+        <li>Game of thores</li>
+    </ul>
+</ol>
+ <h2>DL- Definition list (listas de definição) </h2>
+    <p>Listas de definição são usadas para definir termos,  e tem a seguinte hierarquia de tags, sendo a principal que inicia a lista "dl"</p>
+    <dl>
+        <dt>Definition term "dt"</dt>
+        <dd> Description Definition "dd"</dd>
+    </dl>
+    <p><b>Exemplo:</b></p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do contéudo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>Java script</dt>
+        <dd>Linguagem de programação para criar a interatividade de um site.</dd>
+    </dl>
+</body>
